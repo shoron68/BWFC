@@ -1,0 +1,134 @@
+.testi_uppr h6{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3734A9;
+    font-family: "Manrope", sans-serif !important;
+}
+.testi_uppr h3{
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 800;
+    color: #222;
+    font-family: "Manrope", sans-serif !important;
+    padding-top: 13px;
+    padding-bottom: 40px;
+}
+
+.prev{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    font-size: 20px;
+    height: 30px;
+    width:30px ;
+    border-radius: 50%;
+    border: 1px solid #222;
+    text-align: center;
+}
+.prev:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+.next{
+    position: absolute;
+    left: 50px;
+    bottom: -50px;
+    font-size: 20px;
+    height: 30px;
+    width:30px ;
+    border-radius: 50%;
+    border: 1px solid #222;
+    text-align: center;
+}
+.next:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+.uppr h6{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #3734A9;
+}
+.testi_right h5{
+    font-size: 20px;
+    font-weight: 30px;
+    padding: 15px 0;
+    color: #222;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif !important;
+}
+.testi_right p,
+.secend p{
+    font-size: 16px;
+    font-weight: 24px;
+    font-weight: 400;
+    color: #757095;
+    font-family: "Manrope", sans-serif !important;
+}
+.test_icons{
+    color: #F9896B ;
+}
+.testi_right h6{
+    font-size: 16px;
+    font-weight: 30px;
+    padding: 15px 0;
+    color: #222;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif !important;
+}
+.testi_right span{
+    font-size: 16px;
+    font-weight: 30px;
+    padding: 15px 0;
+    color: #757095;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif !important;
+}
+.testi_right{
+    padding-top: 12px;
+}
+
+@media (max-width:575px){
+    .testi_uppr{
+        text-align: center;
+    }
+    .testi_uppr h3 {
+        padding-bottom: 18px;
+    }
+    .testi_right{
+        padding-top: 70px !important;
+    }
+    .testi_right{
+        text-align: center;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .testi_uppr{
+        text-align: center;
+    }
+    .testi_uppr h3 {
+        padding-bottom: 18px;
+    }
+    .testi_right{
+        padding-top: 70px;
+    }
+    .testi_right{
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .testi_uppr{
+        text-align: center;
+    }
+    .testi_uppr h3 {
+        padding-bottom: 18px;
+    }
+    .testi_right{
+        padding-top: 70px;
+    }
+    .testi_right{
+        text-align: center;
+    }
+}

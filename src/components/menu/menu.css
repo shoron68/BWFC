@@ -1,0 +1,50 @@
+.manu_main{
+    padding: 30px;
+}
+
+.login_btn a{
+    
+    padding: 17px 35px;
+    color: #000000;
+    border-radius: 10px;
+    transition: .4s !important;
+    font-family: "Manrope", sans-serif !important;
+}
+.login_btn a:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+.navbar-nav a{
+    padding: 0 27px !important;
+    font-family: "Manrope", sans-serif !important;
+}
+@media(max-width:575px){
+    .login_btn a{
+        display: inherit !important;
+        text-align: center;
+    }
+    .navbar-nav a{
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+}
+@media(min-width:576px) and(max-width:767px){
+    .login_btn a{
+        display: inherit !important;
+        text-align: center;
+    }
+    .navbar-nav a{
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+}
+@media(min-width:768px) and(max-width:991px){
+    .login_btn a{
+        display: inherit !important;
+        text-align: center;
+    }
+    .navbar-nav a{
+        text-align: center;
+        padding: 10px 0 !important;
+    }
+}

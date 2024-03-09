@@ -1,0 +1,115 @@
+.financy_main{
+    padding: 50px 0;
+    background-color:#F3F7FA ;
+}
+.inner{
+    margin-bottom: 41px;
+}
+.financy_header{
+    padding-bottom: 69px;
+}
+.financy_header h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    color: #3734A9;
+    font-family: "Manrope", sans-serif !important;
+}
+.financy_header h2{
+    font-size: 50px;
+    line-height: 69px;
+    font-weight: 700;
+    color: #222;
+    font-family: "Manrope", sans-serif !important;
+}
+
+@media(max-width:575px){
+    .financy_header h2 {
+        font-size: 47px;
+        line-height: 61px;
+    }
+    .financy_header {
+        padding-bottom: 15px;
+    }
+    .inner_text h4 {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 0px;
+    }
+    .circle {
+        height: 40px;
+        width: 40px;
+        left: 14px;
+    }
+    .inner_text {
+        padding-left: 60px;
+    }
+    .inner_text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .inner {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+@media(min-width:576px)and (max-width:767px){
+    .financy_header h2 {
+        font-size: 47px;
+        line-height: 61px;
+    }
+    .financy_header {
+        padding-bottom: 15px;
+    }
+    .inner_text h4 {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 0px;
+    }
+    .circle {
+        height: 40px;
+        width: 40px;
+        left: 14px;
+    }
+    .inner_text {
+        padding-left: 60px;
+    }
+    .inner_text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .inner {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+@media(min-width:768px)and (max-width:991px){
+    .financy_header h2 {
+        font-size: 47px;
+        line-height: 61px;
+    }
+    .financy_header {
+        padding-bottom: 15px;
+    }
+    .inner_text h4 {
+        font-size: 20px;
+        font-weight: 700;
+        padding-bottom: 0px;
+    }
+    .circle {
+        height: 40px;
+        width: 40px;
+        left: 14px;
+    }
+    .inner_text {
+        padding-left: 60px;
+    }
+    .inner_text p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .inner {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}

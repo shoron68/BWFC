@@ -1,0 +1,108 @@
+.pay_left h5 { 
+    font-family: "Manrope", sans-serif !important;
+    font-size: 18px;
+    color: #3734A9;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.pay_left h2 { 
+    font-family: "Manrope", sans-serif !important;
+    font-size: 50px;
+    line-height: 54px;
+    font-weight: 700;
+    color: #222;
+    padding: 25px 0;
+}
+.pay_left p { 
+    font-family: "Manrope", sans-serif !important;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #757095;
+    padding-bottom: 27px;
+}
+.pay_left a {
+    font-family: "Manrope", sans-serif !important;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    padding: 15px 35px;
+    color: #757095;
+    border: 2px solid #3734A9;
+    color: #3734A9;
+    border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pay_left a:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+
+@media(max-width:575px){
+    .pay_left{
+        text-align: center;
+    }
+    .pay_left h2 {
+        font-size: 40px;
+        line-height: 51px;
+        padding: 16px 0;
+    }
+    .pay_left p {
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+    .pay_left a { 
+        padding: 13px 24px;
+    }
+    .pay_right{
+        padding-top: 30px;
+    }
+}
+@media(min-width:576px) and (max-width:767px){
+    .pay_left{
+        text-align: center;
+    }
+    .pay_left h2 {
+        font-size: 40px;
+        line-height: 51px;
+        padding: 16px 0;
+    }
+    .pay_left p {
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+    .pay_left a { 
+        padding: 13px 24px;
+    }
+    .pay_right{
+        padding-top: 30px;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .pay_left{
+        text-align: center;
+    }
+    .pay_left h2 {
+        font-size: 40px;
+        line-height: 51px;
+        padding: 16px 0;
+    }
+    .pay_left p {
+        font-size: 16px;
+        padding-bottom: 21px;
+    }
+    .pay_left a { 
+        padding: 13px 24px;
+    }
+    .pay_right{
+        padding-top: 30px;
+    }
+}

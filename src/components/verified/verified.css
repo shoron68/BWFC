@@ -1,0 +1,105 @@
+.verified_main{
+    padding-top: 106px;
+}
+.veri_left{
+    padding-top: 65px;
+}
+.veri_left h5{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #3734A9;
+    font-weight: 800;
+    font-family: "Manrope", sans-serif !important;
+}
+.veri_left h3{
+    font-size: 50px;
+    line-height: 56px;
+    color: #222;
+    font-weight: 700;
+    font-family: "Manrope", sans-serif !important;
+    padding: 25px 0;
+}
+.veri_left p{
+    font-size: 18px;
+    line-height: 26px;
+    color: #757095;
+    font-weight: 400;
+    font-family: "Manrope", sans-serif !important;
+    padding-bottom: 25px;
+}
+.veri_left a{
+    font-size: 16px;
+    line-height: 30px;
+    color: #3734A9;
+    font-weight: 400;
+    padding: 15px 35px;
+    border: 2px solid #3734A9;
+    border-radius: 10px;
+    font-family: "Manrope", sans-serif !important;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.veri_left a:hover{
+    background-color: #3734A9;
+    color: #fff;
+}
+
+
+@media (max-width:575px){
+    .verified_main {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .veri_left h3 {
+        font-size: 33px;
+        line-height: 49px;
+        padding: 13px 0;
+    }
+    .veri_left a {
+        padding: 12px 25px;
+    }
+    .veri_img{
+        padding-top: 34px;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .verified_main {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .veri_left h3 {
+        font-size: 33px;
+        line-height: 49px;
+        padding: 13px 0;
+    }
+    .veri_left a {
+        padding: 12px 25px;
+    }
+    .veri_img{
+        padding-top: 34px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .verified_main {
+        padding-top: 5px;
+        text-align: center;
+    }
+    .veri_left h3 {
+        font-size: 33px;
+        line-height: 49px;
+        padding: 13px 0;
+    }
+    .veri_left a {
+        padding: 12px 25px;
+    }
+    .veri_img{
+        padding-top: 34px;
+    }
+}

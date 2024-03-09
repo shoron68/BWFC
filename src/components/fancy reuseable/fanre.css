@@ -1,0 +1,38 @@
+.inner{
+    position: relative;
+    padding-top: 59px;
+    padding-bottom:37px;
+    background-color: #fff;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.circle{
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    left:30px ;
+    background-color: #F7ECFD;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.inner_text{
+    padding-left: 120px;
+}
+.inner_text h4{
+    font-family: "Manrope", sans-serif !important;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 22px;
+}
+.inner_text p{
+    font-family: "Manrope", sans-serif !important;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
